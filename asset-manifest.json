@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goitu-react-hw-01-components/static/css/main.85524866.css",
+    "main.js": "/goitu-react-hw-01-components/static/js/main.a3f377c2.js",
+    "index.html": "/goitu-react-hw-01-components/index.html",
+    "main.85524866.css.map": "/goitu-react-hw-01-components/static/css/main.85524866.css.map",
+    "main.a3f377c2.js.map": "/goitu-react-hw-01-components/static/js/main.a3f377c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85524866.css",
+    "static/js/main.a3f377c2.js"
+  ]
+}
