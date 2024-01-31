@@ -1,4 +1,6 @@
 import css from './FriendListItem.module.css';
+import PropTypes from 'prop-types';
+
 export default function FriendListItem({ id, name, avatar, status }) {
   return (
     <li className={css.item} key={id}>
@@ -8,3 +10,10 @@ export default function FriendListItem({ id, name, avatar, status }) {
     </li>
   );
 }
+
+FriendListItem.protoType = {
+  id: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  status: PropTypes.bool.isRequired,
+};
